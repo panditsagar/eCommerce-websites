@@ -1,0 +1,215 @@
+/* media Query */
+
+@media (max-width: 799px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.5s;
+  }
+  #navbar.active {
+    right: 0;
+  }
+  #navbar li {
+    margin-bottom: 25px;
+  }
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+  #mobile i {
+    color: #1a1a1a;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+  #bag {
+    display: none;
+  }
+  #close {
+    display: inline;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+  }
+  #hero {
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+  #banner {
+    height: 20vh;
+  }
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 30vh;
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+  #banner3 .banner-box {
+    width: 28%;
+  }
+  .form {
+    width: 70%;
+  }
+  /* .contact page */
+  #contact-details .map {
+    width: 100%;
+    margin-left: 30px;
+  }
+  .section-p1 {
+    padding: 40px 40px;
+  }
+  #form-details {
+    padding: 30px;
+  }
+  #form-details form {
+    width: 60%;
+  }
+}
+
+@media (max-width: 477px) {
+  #header {
+    padding: 10px 20px;
+  }
+  #navbar {
+    width: 200px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  #hero {
+    padding: 0 20px;
+    background-position: 55%;
+  }
+  #feature {
+    justify-content: center;
+    gap: 20px;
+  }
+  #feature .fe-box {
+    width: 150px;
+    margin: 0;
+  }
+  #product1 h2 {
+    font-size: 27px;
+  }
+  #product1 p {
+    font-size: 13px;
+  }
+  #product1 .pro-container {
+    display: flex;
+    justify-content: center;
+  }
+  #banner {
+    height: 30vh;
+  }
+  #banner h2 {
+    font-size: 20px;
+  }
+
+  #sm-banner .banner-box2 {
+    margin-top: 20px;
+  }
+  .section-p1 {
+    padding: 20px;
+  }
+  #banner3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  #banner3 .banner-box {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+  #prodetails {
+    display: flex;
+    flex-direction: column;
+  }
+  #prodetails .single-pro-image {
+    width: 100%;
+    margin-right: 0;
+  }
+  #prodetails .single-pro-details {
+    width: 100%;
+  }
+  /* blog page */
+  #blog .blog-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
+  #blog .blog-img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  #blog .blog-details {
+    width: 100%;
+  }
+
+  /* about page */
+  #about-head {
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  #about-head img {
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  #about-app .video {
+    width: 100%;
+  }
+
+  /* contact page */
+  #contact-details {
+    flex-direction: column;
+  }
+  #contact-details .details {
+    width: 100%;
+    padding: 20px;
+  }
+  #contact-details .map {
+    margin-left: 0;
+  }
+  #form-details {
+    flex-direction: column;
+  }
+  #form-details form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* card page */
+  #card-add {
+    flex-direction: column;
+  }
+  #coupon {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  #subtotal {
+    width: 100%;
+  }
+}
