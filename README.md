@@ -22,14 +22,6 @@ This is a static eCommerce website designed using **HTML**, **CSS**, and **JavaS
 
 Explore the live version of the website: [eCommerce Website](https://panditsagar.github.io/eCommerce-websites/)
 
-## Screenshots
-
-### Homepage
-![Homepage](https://via.placeholder.com/1024x600.png?text=Screenshot+of+eCommerce+Homepage)
-
-### Product Section
-![Product Section](https://via.placeholder.com/1024x600.png?text=Screenshot+of+Product+Section)
-
 ## Installation
 
 To view or edit this project locally:
