@@ -22,10 +22,8 @@ This is a static eCommerce website designed using **HTML**, **CSS**, and **JavaS
 
 Explore the live version of the website: [eCommerce Website](https://panditsagar.github.io/eCommerce-websites/)
 
-## Installation
+## Screenshots
 
-To view or edit this project locally:
+### Homepage
+![Homepage Screenshot](assets/img/HomePage.png)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/panditsagar/eCommerce-websites.git
