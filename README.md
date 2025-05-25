@@ -25,5 +25,5 @@ Explore the live version of the website: [eCommerce Website](https://panditsagar
 ## Screenshots
 
 ### Homepage
-![Homepage Screenshot](assets/img/HomePage.png)
+![Homepage Screenshot](img/HomePage.png)
 
